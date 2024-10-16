@@ -3,7 +3,7 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729086696889</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729086707935</meta>
+    <meta id="studioModified">1729086824373</meta>
     <meta id="layout">{"cq1":{"ModelReader":{"x":50,"y":50},"Score":{"x":50,"y":175},"Source":{"x":290,"y":50}}}</meta>
   </metadata>
   <contqueries>
@@ -13,32 +13,32 @@
           <schema>
             <fields>
               <field name="id" type="int64" key="true"/>
-              <field name="New_field_0" type="string"/>
-              <field name="New_field_1" type="string"/>
-              <field name="New_field_2" type="string"/>
-              <field name="New_field_3" type="string"/>
-              <field name="New_field_4" type="string"/>
-              <field name="New_field_5" type="string"/>
-              <field name="New_field_6" type="string"/>
-              <field name="New_field_7" type="string"/>
-              <field name="New_field_8" type="string"/>
-              <field name="New_field_9" type="string"/>
-              <field name="New_field_10" type="string"/>
-              <field name="New_field_11" type="string"/>
-              <field name="New_field_12" type="string"/>
-              <field name="New_field_13" type="string"/>
-              <field name="New_field_14" type="string"/>
-              <field name="New_field_15" type="string"/>
-              <field name="New_field_16" type="string"/>
-              <field name="New_field_17" type="string"/>
-              <field name="New_field_18" type="string"/>
-              <field name="New_field_19" type="string"/>
-              <field name="New_field_20" type="string"/>
-              <field name="New_field_21" type="string"/>
-              <field name="New_field_22" type="string"/>
-              <field name="New_field_23" type="string"/>
-              <field name="New_field_24" type="string"/>
-              <field name="New_field_25" type="string"/>
+              <field name="engine" type="int32"/>
+              <field name="cycle" type="int32"/>
+              <field name="x1" type="double"/>
+              <field name="x2" type="double"/>
+              <field name="x3" type="double"/>
+              <field name="x4" type="double"/>
+              <field name="x5" type="double"/>
+              <field name="x6" type="double"/>
+              <field name="x7" type="double"/>
+              <field name="x8" type="double"/>
+              <field name="x9" type="double"/>
+              <field name="x10" type="double"/>
+              <field name="x11" type="double"/>
+              <field name="x12" type="double"/>
+              <field name="x13" type="double"/>
+              <field name="x14" type="double"/>
+              <field name="x15" type="double"/>
+              <field name="x16" type="double"/>
+              <field name="x17" type="double"/>
+              <field name="x18" type="double"/>
+              <field name="x19" type="double"/>
+              <field name="x20" type="double"/>
+              <field name="x21" type="double"/>
+              <field name="x22" type="double"/>
+              <field name="x23" type="double"/>
+              <field name="x24" type="double"/>
             </fields>
           </schema>
           <connectors>
@@ -67,32 +67,32 @@
           <schema>
             <fields>
               <field name="id" type="int64" key="true"/>
-              <field name="New_field_0" type="string"/>
-              <field name="New_field_1" type="string"/>
-              <field name="New_field_2" type="string"/>
-              <field name="New_field_3" type="string"/>
-              <field name="New_field_4" type="string"/>
-              <field name="New_field_5" type="string"/>
-              <field name="New_field_6" type="string"/>
-              <field name="New_field_7" type="string"/>
-              <field name="New_field_8" type="string"/>
-              <field name="New_field_9" type="string"/>
-              <field name="New_field_10" type="string"/>
-              <field name="New_field_11" type="string"/>
-              <field name="New_field_12" type="string"/>
-              <field name="New_field_13" type="string"/>
-              <field name="New_field_14" type="string"/>
-              <field name="New_field_15" type="string"/>
-              <field name="New_field_16" type="string"/>
-              <field name="New_field_17" type="string"/>
-              <field name="New_field_18" type="string"/>
-              <field name="New_field_19" type="string"/>
-              <field name="New_field_20" type="string"/>
-              <field name="New_field_21" type="string"/>
-              <field name="New_field_22" type="string"/>
-              <field name="New_field_23" type="string"/>
-              <field name="New_field_24" type="string"/>
-              <field name="New_field_25" type="string"/>
+              <field name="engine" type="int32"/>
+              <field name="cycle" type="int32"/>
+              <field name="x1" type="double"/>
+              <field name="x2" type="double"/>
+              <field name="x3" type="double"/>
+              <field name="x4" type="double"/>
+              <field name="x5" type="double"/>
+              <field name="x6" type="double"/>
+              <field name="x7" type="double"/>
+              <field name="x8" type="double"/>
+              <field name="x9" type="double"/>
+              <field name="x10" type="double"/>
+              <field name="x11" type="double"/>
+              <field name="x12" type="double"/>
+              <field name="x13" type="double"/>
+              <field name="x14" type="double"/>
+              <field name="x15" type="double"/>
+              <field name="x16" type="double"/>
+              <field name="x17" type="double"/>
+              <field name="x18" type="double"/>
+              <field name="x19" type="double"/>
+              <field name="x20" type="double"/>
+              <field name="x21" type="double"/>
+              <field name="x22" type="double"/>
+              <field name="x23" type="double"/>
+              <field name="x24" type="double"/>
               <field name="_SVDDSCORE_" type="double"/>
               <field name="_SVDDDISTANCE_" type="double"/>
             </fields>
@@ -107,7 +107,7 @@
             </offline>
           </models>
           <connectors>
-            <connector name="Result_connector" class="fs">
+            <connector class="fs" name="Result_connector">
               <properties>
                 <property name="type"><![CDATA[sub]]></property>
                 <property name="fstype"><![CDATA[csv]]></property>
